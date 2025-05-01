@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>O Peregrino</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <!-- Áudio de fundo -->
+    <audio id="musica-fundo" loop>
+        <source src="assets/audios/o_peregrino.mp3" type="audio/mpeg">
+        Seu navegador não suporta áudio.
+    </audio>
+  
+
+  <!-- Container principal -->
+  <div id="main-container"></div>
+
+  <!-- Popup de Versículo -->
+  <div class="popup" id="versiculo-popup" style="display: none;">
+    <div class="popup-content">
+      <p id="versiculo-text"></p>
+      <button id="close-popup">Fechar</button>
+    </div>
+  </div>
+
+  <!-- Rodapé -->
+  <footer id="rodape">
+    <p>
+      Desenvolvido por Diego Nascimento<br>
+      TechVibe Solutions - Desenvolvimento de Sistemas
+    </p>
+    <div class="social-links">
+      <a href="https://www.linkedin.com/in/seu-perfil" target="_blank">LinkedIn</a>
+      <a href="https://github.com/seu-usuario" target="_blank">GitHub</a>
+    </div>
+  </footer>
+
+  <!-- Módulo principal -->
+  <script type="module" src="js/main.js"></script>
+</body>
+</html>
