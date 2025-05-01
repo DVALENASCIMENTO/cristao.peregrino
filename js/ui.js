@@ -1,5 +1,5 @@
 // Efeito de digitação
-export function digitarTexto(container, texto, callback, velocidade = 30) {
+export function digitarTexto(container, texto, callback, velocidade = 80) {
     let i = 0;
     const p = document.createElement("p");
     container.appendChild(p);

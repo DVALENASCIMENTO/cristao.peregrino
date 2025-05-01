@@ -8,17 +8,17 @@ import {
   
   export function renderChapter(container, showVersiculo, nextChapter) {
     // Cena 1: Fuga da cidade
-    mostrarImagem(container, "assets/imagens/fuga.jpg", "Fuga com o fardo nas costas");
+    mostrarImagem(container, "assets/imagens/fugadacidade.png", "Fuga com o fardo nas costas");
     digitarTexto(container,
       "O Peregrino, com o coração cheio de temor, foge da Cidade da Destruição, guiado pela luz mostrada pelo Evangelista. Atrás de si, ouve os gritos da esposa e dos filhos.",
       () => {
         // Cena 2: Reação da vizinhança
-        mostrarImagem(container, "assets/imagens/vizinhos.jpg", "Vizinhos observando");
+        mostrarImagem(container, "assets/imagens/vizinhos.png", "Vizinhos observando");
         digitarTexto(container,
           "Os vizinhos saem das casas. Alguns zombam dele, outros tentam assustá-lo. Dois homens — Obstinado e Volúvel — decidem persegui-lo.",
           () => {
             // Cena 3: Diálogo com Obstinado e Volúvel
-            mostrarImagem(container, "assets/imagens/conversa.jpg", "Diálogo na estrada");
+            mostrarImagem(container, "assets/imagens/conversa.png", "Diálogo na estrada");
             digitarTexto(container,
               "Obstinado tenta convencê-lo a voltar. Diz que é loucura abandonar tudo por uma promessa incerta. Mas o Peregrino responde com firmeza: 'Li no livro que minha cidade será destruída. Eu busco a salvação e uma pátria melhor.'",
               () => {
@@ -37,7 +37,7 @@ import {
                 ], showVersiculo, (escolha) => {
                   if (escolha) {
                     // Prossegue com Volúvel
-                    mostrarImagem(container, "assets/imagens/jornada.jpg", "Caminho com Volúvel");
+                    mostrarImagem(container, "assets/imagens/jornada.png", "Caminho com Volúvel");
                     digitarTexto(container,
                       "Volúvel decide acompanhá-lo por curiosidade. Durante o caminho, faz muitas perguntas sobre a Cidade Celestial e os perigos da jornada.",
                       () => {
@@ -59,7 +59,7 @@ import {
                     );
                   } else {
                     // Escolheu voltar
-                    mostrarImagem(container, "assets/imagens/alerta.jpg", "Alerta espiritual");
+                    mostrarImagem(container, "assets/imagens/alerta.png", "Alerta espiritual");
                     digitarTexto(container,
                       "Ao tentar voltar, sente um peso no coração. As palavras do Evangelista ecoam em sua mente... É tempo de retomar a caminhada!",
                       () => {
