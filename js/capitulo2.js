@@ -47,7 +47,7 @@ import {
                             digitarTexto(container,
                               "Mesmo só, o Peregrino continua firme, com os olhos na luz ao longe.",
                               () => {
-                                criarBotaoProximo(container, "Seguir para O Charco do Desânimo", () => {
+                                criarBotaoProximo(container, "Seguir em frente", () => {
                                   nextChapter("capitulo3");
                                 });
                                 criarBotaoInicio(container);
